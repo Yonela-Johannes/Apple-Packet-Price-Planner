@@ -9,7 +9,7 @@ const calculateBtn = document.querySelector('.calculate-button')
 
 const calculate = () => {
     console.log(numOfApples.value)
-
+    console.log('working')
 
 
 }
