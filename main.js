@@ -21,7 +21,7 @@ const PricePlanner = () => {
     const numOfPackets = () => numOfApples / numOfApplesInPacket
     const costPrice = () => boxCost / numOfApples
     const packetCost = () => costPrice() * parseFloat(numOfApplesInPacket)
-    const makeProfit = () => packetCost() + parseFloat(profit)
+    const makeProfit = () => packetCost() / parseFloat(boxCost) * 100
     return {
         setBoxCost,
         getBoxCost,

@@ -10,53 +10,57 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>Apple Packet Price Planner</h1>
-    </div>
-    <div class="main-container">
-        <div class="top-container">
-            <h2>Apple bying data</h2>
-            <div class="container">
-                <div class="content">
-                    <label for="box-cost">Cost for a box of apples</label>
-                    <input name="box-cost" type="number" class='box-cost' />
-                </div>
-                <br />
-                <div class="content">
-                    <label for="number-of-apples">Number of apples in the box</label>
-                    <input class="number-of-apples" name="number-of-apples-in-box" />
-                </div>
-                <br />
-                <div class="content">
-                    <label type="number" for="packet-size">The packet size apples are sold in</label>
-                    <input name="packet-size" class="packet-size" />
-                </div>
-                <br />
-                <div class="content">
-                    <label type="number" for="packet-size">Required Profit</label>
-                    <input name="profit" class="required-profit" />
-                </div>
+    <div class="wrapper">
+        <div class="opacity">
+            <div class="header">
+                <h1>Apple Packet Price Planner</h1>
             </div>
-            <div class="calculate-button">Calculate</div>
-        </div>
-        <div class="bottom-container">
-            <h2>Apple Price Calculations</h2>
-            <div class="container">
-                <div class="bottom-content">
-                    <p>Number of packets</p>
-                    <div class="rand">R<span class="packets-number amount">0</span></div>
+            <div class="main-container">
+                <div class="top-container">
+                    <h2>Apple bying data</h2>
+                    <div class="container">
+                        <div class="content">
+                            <label for="box-cost">Cost for a box of apples</label>
+                            <input name="box-cost" type="number" class='box-cost' />
+                        </div>
+                        <br />
+                        <div class="content">
+                            <label for="number-of-apples">Number of apples in the box</label>
+                            <input class="number-of-apples" name="number-of-apples-in-box" />
+                        </div>
+                        <br />
+                        <div class="content">
+                            <label type="number" for="packet-size">The packet size apples are sold in</label>
+                            <input name="packet-size" class="packet-size" />
+                        </div>
+                        <br />
+                        <div class="content">
+                            <label type="number" for="packet-size">Required Profit</label>
+                            <input name="profit" class="required-profit" />
+                        </div>
+                    </div>
+                    <div class="calculate-button">Calculate</div>
                 </div>
-                <div class="bottom-content">
-                    <p>Cost Price per Apple</p>
-                    <div class="rand">R<span class="apple-cost amount">0</span></div>
-                </div>
-                <div class="bottom-content">
-                    <p>Cost Price per packet</p>
-                    <div class="rand">R<span class="packets-cost amount">0</span></div>
-                </div>
-                <div class="bottom-content">
-                    <p>Recommended packet price</p>
-                    <div class="rand">R<span class="recommended-price amount">0</span></div>
+                <div class="bottom-container">
+                    <h2>Apple Price Calculations</h2>
+                    <div class="container bg">
+                        <div class="bottom-content">
+                            <p>Number of packets</p>
+                            <div class="rand"><span class="packets-number amount">0</span></div>
+                        </div>
+                        <div class="bottom-content">
+                            <p>Cost Price per Apple</p>
+                            <div class="rand">R<span class="apple-cost amount">0.00</span></div>
+                        </div>
+                        <div class="bottom-content">
+                            <p>Cost Price per packet</p>
+                            <div class="rand">R<span class="packets-cost amount">0.00</span></div>
+                        </div>
+                        <div class="bottom-content">
+                            <p>Recommended packet price</p>
+                            <div class="rand">R<span class="recommended-price amount">0.00</span></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
