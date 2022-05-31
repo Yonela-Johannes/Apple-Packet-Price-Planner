@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Packet Price Planner</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="header">
+        <h1>Apple Packet Price Planner</h1>
+    </div>
+    <div class="main-container">
+        <div class="top-container">
+            <h2>Apple bying data</h2>
+            <div class="container">
+                <label for="number-of-apples">Cost for a box of apples</label>
+                <input name="number-of-apples" type="number" class="number-of-apples" />
+                <br />
+                <label for="number-of-apples-in-box">Number of apples in the box</label>
+                <input name="number-of-apples-in-box" />
+                <br />
+                <label type="number" for="packet-size">The packet size apples are sold in</label>
+                <input name="packet-size" />
+            </div>
+            <div class="calculate-button">Calculate</div>
+        </div>
+        <div class="bottom-container">
+            <h2>Apple Price Calculations</h2>
+            <div class="container">
+                <div>
+                    <p>Number of packets</p>
+                    <div class="packets-number"><span>R</span>0</div>
+                </div>
+                <div>
+                    <p>Cost Price per Apple</p>
+                    <div class="apple-cost"><span>R</span>0</div>
+                </div>
+                <div>
+                    <p>Cost Price per packet</p>
+                    <div class="packets-cost"><span>R</span>0</div>
+                </div>
+                <div>
+                    <p>Recommended packet price</p>
+                    <div class="packets-number"><span>R</span>0</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
+</body>
+
+</html>
