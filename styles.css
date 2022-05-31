@@ -3,6 +3,19 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+.wrapper:before{
+    /* content: ""; */
+    /* opacity: .5; */
+    background-image: url("./img.jpg");
+    height: 100vh;
+}
+.wrapper{
+    /* content: ""; */
+    /* opacity: .5; */
+    background-image: url("./img.jpg");
+    height: 100vh;
+}
 .header{
     color: rgb(22, 22, 22);
     display: flex;
@@ -14,7 +27,6 @@
 
 .main-container {
     display: flex;
-    /* flex-direction: column; */
     justify-content: space-around;
     width: 100vw;
     margin-top: 70px;
